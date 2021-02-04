@@ -1,0 +1,16 @@
+Project on Ansible+GIT+AWS
+===========================
+Task Description :
+====================
+Launch 2 RHEL8 instances in AWS
+Configure password-less SSH authentication for EC2 instances
+Configure a Control Node locally 
+Login to your github account and create a Repository called RH294
+Install git client on the Control node. Create an index.html file and push the file into the remote github repository.
+Write an Ansible Playbook to perform the following tasks on the Managed Hosts [ EC2 instances ]
+Install httpd and firewalld packages
+Start and Enable httpd and firewalld service
+Allow http through firewall
+Download a custom index.html file from the remote github repository and place it
+Within the default Document Root of the web server i.e. /var/www/html
+
